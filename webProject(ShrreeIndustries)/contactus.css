@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+     
+}
+/* heres the body css*/
+body{
+    background-color:#1a1f24 ;
+}
+
+p{
+    color:aliceblue;
+}
+.font_of_paragraph{
+    color:aliceblue;
+     
+}
+/*navigation starts */
+nav{
+     font-family: sans-serif;
+     padding: 0;
+     margin: 0;
+     text-decoration: none;
+     list-style: none;
+     box-sizing: border-box;
+     height: 80px;
+     width: 100%;
+     background:#1a1f24;
+
+}
+label.shreelogo{
+padding-left: 10px;
+     
+}
+ 
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color:rgb(255, 255, 255);
+    font-size:17px;
+    
+    padding: 7px 13px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+a.home_transform,a:hover{
+    background:#ff6c03;
+    transition: 0.30s;
+}
+.container_1 {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: aliceblue;
+  margin: 6px 0;
+  transition: 0.3s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+
+.checkbtn{
+    font-size: 30px;
+    color:white;
+    line-height:80px;
+    margin-right:40px;
+    margin-top: 5px;
+    cursor: pointer;
+    float:right;
+    display: none;
+}
+
+#check{
+    display:none;
+}
+  /*navigation ends */
+
+/* form starts from here*/
+ 
+.fo_rm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.reg_form input{
+    padding: 22px 200px;
+    margin: 10px;
+    text-transform: unset;
+    border: none;
+    border-radius: 20px
+}
+
+.reg_form button{
+    background-color: whitesmoke;
+    padding: 10px 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+        margin-bottom: 100px;
+}
+.reg_form button:hover{
+    background-color: #ff6c03;
+    transition: 0.3s;
+     border-radius: 15px;
+}
+ 
+
+.upload_p{
+    
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    padding: 25px 130px;
+}
+.upload_p:hover{
+    background: #ff6c03;
+    border-radius:20px;
+    transition: 0.3s;
+
+}
+/* form ends here*/
+
+/*footer css files START*/
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ 
+.footer{
+	background-color: #1a1f24;
+    padding: 70px 0;
+}
+.footer-col{
+   
+   width: 25%;
+   padding: 30px;
+   cursor: auto;
+    
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #ff6c03;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+	font-size: 16px;
+	color: #ffffff;
+ text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ecubic-bezier(0.4, 0, 1, 1);;
+
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ff6c03;
+}
+
+.mailto a{
+    color: aliceblue;
+}
+.mailto a:hover{
+    color: rgb(4, 5, 5);
+}
+ 
+ .follow_us{
+    font-size: 16px;
+	color: #ffffff;
+ text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+ }
+ 
+.another_links a{
+    color: #bbbbbb;
+    background-color: #1a1f24;
+    cursor: pointer;
+}
+
+.another_links a:hover{
+    color:#ff6c03;
+}
+
+/*footer css files END*/
+
+
+
+/*keep media files at the end of css no matter what*/
+@media (max-width:1350px) {
+    .font_of_paragraph{
+    margin: 0 auto;
+    max-width: 800px;
+    padding-top: 110px;
+  }
+  }
+  
+  @media(max-width: 952px){
+  
+  nav ul li a{
+      font-size:16px;
+  }
+  
+  
+  .font_of_paragraph {
+    margin: 0 auto;
+  }
+  
+   
+  }
+   
+  
+  @media(max-width:858px)
+  {
+      nav{
+          position:fixed;
+      }
+      .checkbtn{
+          display:block;
+          
+         
+      }
+    
+  
+      ul{
+          position:fixed;
+          width:100%;
+          height:100vh;
+          background-color:#1a1f24;
+          top:80px;
+          left:100%;
+          text-align:center;
+          transition: all .3s;
+          
+          
+  
+      }
+      nav ul li{
+          display:block;
+          margin:50px 0;
+          line-height: 30px;
+          
+      }
+      nav ul li a{
+          font-size: 20px;
+      }
+      a:hover,a.active{
+          background:none;
+          color:#0082e6;
+           
+           
+      }
+       
+      #check:checked~ul{
+          left: 0;
+          position: top fixed;
+         
+      }
+      .font_of_paragraph{
+        margin: 0 auto;
+        max-width: 800px;}
+      }
+      
+       
+  
+   
+  @media(max-width:348px){
+    .font_of_paragraph{
+      margin: 0 auto;
+      max-width: 800px;}
+        
+          label.shreelogo {
+               position:fixed;
+       }    
+  }
+  @media(max-width: 767px){
+      .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    .font_of_paragraph{
+      margin: 0 auto;
+      max-width: 800px;}
+    }
+    @media(max-width: 574px){
+      .footer-col{
+        width: 100%;
+    }
+  
+    .font_of_paragraph{
+      margin: 0 auto;
+      max-width: 800px;}
+    }
+  
+    /* On smaller screens, decrease text size for slider */
+    @media only screen and (max-width: 300px) {
+  
+      .prev,
+      .next,
+      .text {
+        font-size: 11px
+      }
+    }
