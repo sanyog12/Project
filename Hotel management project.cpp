@@ -1,4 +1,5 @@
-#include<iostream>
+#include <iostream>
+
 using namespace std;
 int main(){
     //total money
@@ -304,7 +305,7 @@ int main(){
                 frenchToast += 1;
                 totalMoney = totalMoney + 79;
                 int addFood1;
-                cout<< "Do you want to add more food 1 for yes, anything else for no"<<endl;
+                cout<< "Do you want to add more food 1 for yes,enter 2 to confirm"<<endl;
                 cin>>addFood1;
                 if(addFood1 == 1){
                     goto foodMenu;
@@ -318,7 +319,7 @@ int main(){
                 waffels += 1;
                 totalMoney = totalMoney + 89;
                 int addFood2;
-                cout<< "Do you want to add more food? 1 for yes, anything else for no"<<endl;
+                cout<< "Do you want to add more food? 1 for yes,enter 2 to confirm"<<endl;
                 cin>>addFood2;
                 if(addFood2 == 1){
                     goto foodMenu;
@@ -332,7 +333,7 @@ int main(){
                 pancake += 1;
                 totalMoney = totalMoney + 149;
                 int addFood3;
-                cout<< "Do you want to add more food 1 for yes, anything else for no"<<endl;
+                cout<< "Do you want to add more food 1 for yes,enter 2 to confirm"<<endl;
                 cin>>addFood3;
                 if(addFood3 == 1){
                     goto foodMenu;
@@ -346,7 +347,7 @@ int main(){
                 wholegrainToast += 1;
                  totalMoney = totalMoney + 125;
                 int addFood4;
-                cout<< "Do you want to add more food 1 for yes, anything else for no"<<endl;
+                cout<< "Do you want to add more food 1 for yes,enter 2 to confirm"<<endl;
                 cin>>addFood4;
                 if(addFood4 == 1){
                     goto foodMenu;
@@ -360,7 +361,7 @@ int main(){
                 breadButter += 1;
                 totalMoney = totalMoney + 29;
                 int addFood5;
-                cout<< "Do you want to add more food 1 for yes, anything else for no"<<endl;
+                cout<< "Do you want to add more food 1 for yes,enter 2 to confirm"<<endl;
                 cin>>addFood5;
                 if(addFood5 == 1){
                     goto foodMenu;
@@ -375,7 +376,7 @@ int main(){
                 soup += 1;
                 totalMoney = totalMoney + 79;
                 int addFood6;
-                cout<< "Do you want to add more food? 1 for yes, anything else for no"<<endl;
+                cout<< "Do you want to add more food? 1 for yes,enter 2 to confirm"<<endl;
                 cin>>addFood6;
                 if(addFood6 == 1){
                     goto foodMenu;
@@ -389,7 +390,7 @@ int main(){
                 salad += 1;
                 totalMoney = totalMoney + 199;
                 int addFood7;
-                cout<< "Do you want to add more food 1 for yes, anything else for no"<<endl;
+                cout<< "Do you want to add more food 1 for yes,enter 2 to confirm"<<endl;
                 cin>>addFood7;
                 if(addFood7 == 1){
                     goto foodMenu;
@@ -403,7 +404,7 @@ int main(){
                 pannerTadka += 1;
                  totalMoney = totalMoney + 399;
                 int addFood8;
-                cout<< "Do you want to add more food 1 for yes, anything else for no"<<endl;
+                cout<< "Do you want to add more food 1 for yes,enter 2 to confirm"<<endl;
                 cin>>addFood8;
                 if(addFood8 == 1){
                     goto foodMenu;
@@ -417,7 +418,7 @@ int main(){
                 pannertikka += 1;
                 totalMoney = totalMoney + 449;
                 int addFood9;
-                cout<< "Do you want to add more food 1 for yes, anything else for no"<<endl;
+                cout<< "Do you want to add more food 1 for yes,enter 2 to confirm"<<endl;
                 cin>>addFood9;
                 if(addFood9 == 1){
                     goto foodMenu;
@@ -432,7 +433,7 @@ int main(){
                 butterNan += 1;
                 totalMoney = totalMoney + 89;
                 int addFood10;
-                cout<< "Do you want to add more food? 1 for yes, anything else for no"<<endl;
+                cout<< "Do you want to add more food? 1 for yes,enter 2 to confirm"<<endl;
                 cin>>addFood10;
                 if(addFood10 == 1){
                     goto foodMenu;
@@ -446,7 +447,7 @@ int main(){
                 tandoorRoti += 1;
                 totalMoney = totalMoney + 49;
                 int addFood11;
-                cout<< "Do you want to add more food 1 for yes, anything else for no"<<endl;
+                cout<< "Do you want to add more food 1 for yes,enter 2 to confirm"<<endl;
                 cin>>addFood11;
                 if(addFood11 == 1){
                     goto foodMenu;
@@ -460,7 +461,7 @@ int main(){
                 biryani += 1;
                  totalMoney = totalMoney + 299;
                 int addFood12;
-                cout<< "Do you want to add more food 1 for yes, anything else for no"<<endl;
+                cout<< "Do you want to add more food 1 for yes,enter 2 to confirm"<<endl;
                 cin>>addFood12;
                 if(addFood12 == 1){
                     goto foodMenu;
