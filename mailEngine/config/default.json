@@ -1,5 +1,5 @@
 {
-    "db":"mongodb://localhost:27017",
+    "db":"mongodb://localhost:27017/practice",
     "host":"localhost",
     "port":"8484",
     "secretKey":"TopSecret",
@@ -8,8 +8,8 @@
         "host":"smtp.mailgun.org"    ,
         "port":25,
         "auth":{
-            "user":"sanyogvm9@gmail.com",
-            "pass":"errvdycmpgnqksfi"
+            "user":"***",
+            "pass":"*"
         }
     }
 }
